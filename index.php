@@ -54,7 +54,7 @@ if (!empty($word)) {
                             <?php if (!empty($word)): ?>
                                 Een zwetende <?= htmlspecialchars($word) ?> noemt men ook wel een <?= htmlspecialchars($zwapiedWord) ?>.
                             <?php else: ?>
-                                Voer een woord in als query parameter, bijvoorbeeld: ?word=test
+                                Voer een woord in na de / in de URL.
                             <?php endif; ?>
                         </div>
                     </div>
